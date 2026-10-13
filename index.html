@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="林小狼 · AI Engineer / Builder。Building the layer between frontier AI and the real world." />
+  <meta name="author" content="林小狼" />
+  <meta property="og:title" content="林小狼 · linxlbuilds" />
+  <meta property="og:description" content="Building the layer between frontier AI and the real world." />
+  <meta property="og:type" content="website" />
+  <title>林小狼 · linxlbuilds</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#top">林小狼</a>
+    <nav class="nav" aria-label="主导航">
+      <a href="#about">关于</a>
+      <a href="#products">产品</a>
+      <a href="#contact">联系</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">AI Engineer · Builder · Beijing</p>
+      <h1>林小狼</h1>
+      <p class="tagline">Building the layer between frontier AI and the real world.</p>
+      <p class="bio">Agent Harness · FDE · AI-native Products<br />记录技术、产品与商业实验。</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://x.com/linxlbuilds" target="_blank" rel="noopener noreferrer">X / Twitter</a>
+        <a class="btn btn-ghost" href="https://github.com/ThomasLXZ" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>关于</h2>
+      <div class="about-grid">
+        <p>
+          我在北京做 AI 工程与产品落地，关注把前沿模型能力接进真实业务：
+          Agent 编排与 harness、面向领域的规则与知识治理，以及能交付、可审计的 AI-native 工作系统。
+        </p>
+        <p>
+          平时会在 X 上写技术、产品与商业实验的笔记。当前主线产品覆盖专利工作流、表单审核、方言语音数据，以及姓名文化等方向。
+        </p>
+      </div>
+    </section>
+
+    <section id="products" class="section">
+      <h2>核心产品</h2>
+      <p class="section-lead">公开介绍如下。多数仓库为私有，此处不提供源码链接。</p>
+      <div class="product-grid">
+        <article class="card">
+          <div class="card-meta">
+            <span class="badge">WorkOS</span>
+            <span class="card-en">PatentForge</span>
+          </div>
+          <h3>PatentForge</h3>
+          <p>专利代理人 AI 工作台：多文件入库、技术事实抽取、保护策略、自动撰写与交付包。</p>
+        </article>
+
+        <article class="card">
+          <div class="card-meta">
+            <span class="badge">Platform</span>
+            <span class="card-en">Copilot</span>
+          </div>
+          <h3>Copilot</h3>
+          <p>可挂领域 pack 的表单审核平台，覆盖金融等领域规则与知识治理。</p>
+        </article>
+
+        <article class="card">
+          <div class="card-meta">
+            <span class="badge">Data</span>
+            <span class="card-en">tingchuan</span>
+          </div>
+          <h3>听川</h3>
+          <p>方言语音数据工厂：从规范、语料、录音、质检，到数据集版本与导出。</p>
+        </article>
+
+        <article class="card">
+          <div class="card-meta">
+            <span class="badge">Consumer</span>
+            <span class="card-en">NameSide</span>
+          </div>
+          <h3>姓名志</h3>
+          <p>姓名文化报告：诗词、汉字、历史人物与 AI 解读，把名字讲成一篇可读的故事。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>联系</h2>
+      <p class="section-lead">欢迎交流产品、工程与合作。</p>
+      <ul class="link-list">
+        <li>
+          <a href="https://x.com/linxlbuilds" target="_blank" rel="noopener noreferrer">
+            <span class="link-label">X</span>
+            <span class="link-value">@linxlbuilds</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/ThomasLXZ" target="_blank" rel="noopener noreferrer">
+            <span class="link-label">GitHub</span>
+            <span class="link-value">ThomasLXZ</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> 林小狼 · linxlbuilds</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
